@@ -56,11 +56,11 @@ pip install pytorch
 python train_agent.py
 ```
 
-![Scores][img/Figure_1]
+![Scores](img/Figure_1)
 
 ##### Play with agent
 
-'''
+```
 python play_agent.py
-'''
+```
 
