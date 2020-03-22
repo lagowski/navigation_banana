@@ -30,31 +30,31 @@ The task is episodic, and in order to solve the environment, your agent must get
 ### Instructions
 
 It's required use of python 3.6
-'''
+```
 conda create --name myenv python=3.6
-'''
+```
 And activate 
 
-'''
+```
 source activate myenv
-'''
+```
 
 Use of tensorflow 1.7.1 required by unityagents
 
-'''
+```
 pip install tensorflow==1.7.1
 pip install unityagents
-'''
+```
 
 Use of pytoch
-'''
+```
 pip install pytorch
-'''
+```
 
 ##### For train run
-'''
+```
 python train_agent.py
-'''
+```
 
 ![Scores][img/Figure_1]
 
