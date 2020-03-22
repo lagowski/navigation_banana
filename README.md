@@ -56,7 +56,7 @@ pip install pytorch
 python train_agent.py
 ```
 
-![Scores](img/Figure_1)
+![Scores](img/Figure_1.png)
 
 ##### Play with agent
 
