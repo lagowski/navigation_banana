@@ -7,7 +7,7 @@ import time
 import matplotlib.pyplot as plt
 from dqn_agent import Agent
 
-EPISODES = 2000
+N_EPISODES = 2000
 MAX_T = 1000
 EPS_START = 1.0
 
@@ -17,7 +17,7 @@ EPS_DECAY = 0.995
 STOP_REWARD = 13.0
 
 
-def dqn(n_episodes=EPISODES, max_t=MAX_T, eps_start=EPS_START, eps_end=EPS_END, eps_decay=EPS_DECAY):
+def dqn(n_episodes=N_EPISODES, max_t=MAX_T, eps_start=EPS_START, eps_end=EPS_END, eps_decay=EPS_DECAY):
     """Deep Q-Learning.
     
     Params
