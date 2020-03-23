@@ -38,7 +38,7 @@ A plot of rewards per episode is included to illustrate that the agent is able t
 
 ### Ideas for Future Work
 
-* **Hyperparameters tuning**:
+* Hyperparameters tuning
 * More time learning to reach higher Stop_reward value
 * Tune Bayesian Optimizers to find the best combination of hyperparameters 
 * Double DQN: Another improvement would be to try to use *Double DQN*. 
